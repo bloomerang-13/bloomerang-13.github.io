@@ -26,11 +26,13 @@ padding: 80px 0;
 header h1 {
 font-size: 3rem;
 margin-bottom: 10px;
+text-shadow: 0 2px 10px rgba(255,255,255,.15);
 }
 
-header h2 {
-font-weight: 400;
-color: #cbd5e1;
+section h2 {
+color: #8B1E2D;
+border-bottom: 2px solid #e5e7eb;
+padding-bottom: 10px;
 }
 
 header p {
