@@ -83,5 +83,8 @@ a {
 
 a:hover {
     color: #F5C542;
-    text-decoration: underline;
+
+strike {
+  text-decoration: line-through;
 }
+
