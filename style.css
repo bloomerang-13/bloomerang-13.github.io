@@ -33,7 +33,8 @@ header {
 }
 
 .header-content > img {
-    width: 250px;
+    align: top;
+	width: 250px;
     height: auto;
     flex-shrink: 0;
 }
