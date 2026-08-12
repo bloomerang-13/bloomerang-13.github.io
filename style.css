@@ -18,7 +18,7 @@ margin: auto;
 }
 
 header {
-  background-image: url('images/digital-mountains_04.jpg');
+  background-image: url('digital-mountains_04.jpg');
   height: 540px;  /* Static fixed height */
   width: 100%;    /* Dynamic fluid width */
   color: white;
