@@ -19,11 +19,27 @@ margin: auto;
 
 header {
 /* background-color: #3441A5; */
-background-image: url('digital-mountains_04.jpg');
+background-image: url('images/digital-mountains_04.jpg');
 height: 540px;  /* Static fixed height */
 width: 100%;    /* Dynamic fluid width */
 color: white;
 padding: 80px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header-content > img {
+    width: 180px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.header-text {
+    flex: 1;
 }
 
 header h1 {
@@ -85,8 +101,8 @@ a {
 
 a:hover {
     color: #F5C542;
+}
 
 strike {
   text-decoration: line-through;
 }
-
